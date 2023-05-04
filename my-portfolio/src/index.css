@@ -39,10 +39,11 @@ font-family: 'Poppins', sans-serif;
 background-color:var(--color-bg);
 color: var(--color-white);
 line-height: 1.7;
-/* background-image: url(./assets/backgroundimage.png); */
-
+background-image: url(./assets/backgroundimage.png); 
+background-size: contain;
 background-position:center center center;
-background-size: cover;
+background-repeat: repeat;
+
 
 }
 
