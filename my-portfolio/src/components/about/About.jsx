@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import ME2 from "../../assets/me2.png";
 import { GrVirtualMachine } from "react-icons/gr";
+import { BiLibrary } from "react-icons/bi";
 
 function About() {
   return (
@@ -19,21 +20,25 @@ function About() {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <GrVirtualMachine className="about__card" />
+              <GrVirtualMachine className="about__icon" />
               <h5>Experience</h5>
             </article>
 
             <article className="about__card">
-              <GrVirtualMachine className="about__card" />
-              <h5>Experience</h5>
+              <BiLibrary className="about__icon" />
+              <h5>Projects</h5>
             </article>
-
-            <article className="about__card">
-              <GrVirtualMachine className="about__card" />
-              <h5>Experience</h5>
-            </article>
-            
           </div>
+
+          <p>
+            {" "}
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+            nostrum vero, quisquam quos eligendi nulla, quae maiores animi
+            ratione hic deserunt illo est magnam repellat iusto commodi eum
+            similique debitis!
+          </p>
+            <a href="#contact" className="btn btn-primary"> Lets Talk!</a>
+
         </div>
       </div>
     </section>
