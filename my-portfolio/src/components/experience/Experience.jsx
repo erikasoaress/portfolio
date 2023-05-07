@@ -79,6 +79,32 @@ function Experience() {
             </article>
           </div>
         </div>
+
+        <div className="experience__backend">
+          <h3>Design </h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BiBadgeCheck className="experience__details-icon" />
+              <div>
+                <h4>Figma</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BiBadgeCheck className="experience__details-icon" />
+              <div>
+                <h4>Adobe Photoshop</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BiBadgeCheck className="experience__details-icon" />
+              <div>
+                <h4>Adobe Illustrator</h4>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   );
