@@ -13,7 +13,10 @@ function Contact() {
           <article className="contact__option">
             <AiOutlineMail className="contact__option-icon"/>
             <h4>Email</h4>
-            <h5>contacto@erikazdesign.com</h5>
+            <h5>contacto@erikazdesign.com
+
+              
+            </h5>
             <a href="mailto:contacto@erikazdesign.com">Send a message!</a>
           </article>
         </div>
