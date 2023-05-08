@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME2 from "../../assets/me2.png";
+
 import { RiMedal2Fill } from "react-icons/ri";
 import { BiLibrary } from "react-icons/bi";
 
@@ -10,12 +10,12 @@ function About() {
       <h5>Get to Know</h5>
       <h2>About me</h2>
 
-      <div className="container about__container">
+      {/* <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
             <img src={ME2} alt="profile picture of Erika" />
           </div>
-        </div>
+        </div> */}
 
         <div className="about__content">
           <div className="about__cards">
@@ -42,7 +42,7 @@ function About() {
             Lets Talk!
           </a>
         </div>
-      </div>
+      
     </section>
   );
 }
