@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import ME2 from "../../assets/me2.png";
-import { GrVirtualMachine } from "react-icons/gr";
+import { RiMedal2Fill } from "react-icons/ri";
 import { BiLibrary } from "react-icons/bi";
 
 function About() {
@@ -20,7 +20,7 @@ function About() {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <GrVirtualMachine className="about__icon" />
+              <RiMedal2Fill className="about__icon" />
               <h5>Experience</h5>
             </article>
 
@@ -37,8 +37,10 @@ function About() {
             ratione hic deserunt illo est magnam repellat iusto commodi eum
             similique debitis!
           </p>
-            <a href="#contact" className="btn btn-primary"> Lets Talk!</a>
-
+          <a href="#contact" className="btn btn-primary">
+            {" "}
+            Lets Talk!
+          </a>
         </div>
       </div>
     </section>
