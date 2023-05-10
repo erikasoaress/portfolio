@@ -29,6 +29,11 @@ header {
     bottom:3rem;
 }
 
+.header__socials-icon {
+    height:2rem;
+    width:2rem;
+}
+
 .header__socials::after {
     content: "";
     width:1px;
