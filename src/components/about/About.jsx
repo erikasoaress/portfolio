@@ -19,7 +19,7 @@ function About() {
 
       <div className="about__content">
         <div className="about__cards">
-          <article className="about__card">
+          {/* <article className="about__card">
             <RiMedal2Fill className="about__icon" />
             <a href="#experience">
               <h5>Experience</h5>
@@ -31,17 +31,24 @@ function About() {
             <a href="#portfolio">
               <h5>Projects</h5>
             </a>
+          </article> */}
+
+          <article className="about__card">
+            <p>
+              {" "}
+              Hello, my name is Erika and I'm a Front-End Developer based in Lisbon. I have a background in jewelry design and entrepreneurship, but after many years in the industry, I felt the need to challenge
+              myself in a new field. The tech field made me feel curious and I decided to switch things up and jump in this new world. I am a creative thinker who wants to collaborate with dynamic teams in order to achieve a common goal, that will have an impact in peoples lives.
+            </p>
           </article>
         </div>
 
-        <p>
+        {/* <p>
           {" "}
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
-          nostrum vero, quisquam quos eligendi nulla, quae maiores animi ratione
-          hic deserunt illo est magnam repellat iusto commodi eum similique
-          debitis!
-        </p>
-      
+          Hello, my name is Erika and I'm a Front-End Developer based in Lisbon.
+          I have a background in jewelry design and entrepreneurship, but after
+          many years in the industry, I felt the need to challenge myself in a
+          new field.
+        </p> */}
       </div>
     </section>
   );

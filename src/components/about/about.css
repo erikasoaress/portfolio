@@ -29,9 +29,9 @@
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  margin: 0 auto;
+  grid-template-columns: 1fr;
+ 
+  
 }
 
 .about__card {
@@ -39,7 +39,7 @@
   border: 1px solid #ae2770;
   border-radius: 1rem;
   padding: 3rem;
-  margin: 0 1rem;
+  margin: 0 2rem;
   text-align: center;
   transition: var(--transition);
 }
@@ -62,7 +62,7 @@
 
 .about__content p {
   margin: 2rem;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 @media screen and (max-width: 1024px) {
