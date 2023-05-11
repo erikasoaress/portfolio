@@ -17,32 +17,35 @@ function About() {
           </div>
         </div> */}
 
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <RiMedal2Fill className="about__icon" />
+      <div className="about__content">
+        <div className="about__cards">
+          <article className="about__card">
+            <RiMedal2Fill className="about__icon" />
+            <a href="#experience">
               <h5>Experience</h5>
-            </article>
+            </a>
+          </article>
 
-            <article className="about__card">
-              <BiLibrary className="about__icon" />
+          <article className="about__card">
+            <BiLibrary className="about__icon" />
+            <a href="#portfolio">
               <h5>Projects</h5>
-            </article>
-          </div>
-
-          <p>
-            {" "}
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
-            nostrum vero, quisquam quos eligendi nulla, quae maiores animi
-            ratione hic deserunt illo est magnam repellat iusto commodi eum
-            similique debitis!
-          </p>
-          <a href="#contact" className="btn btn-primary">
-            {" "}
-            Lets Talk!
-          </a>
+            </a>
+          </article>
         </div>
-      
+
+        <p>
+          {" "}
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+          nostrum vero, quisquam quos eligendi nulla, quae maiores animi ratione
+          hic deserunt illo est magnam repellat iusto commodi eum similique
+          debitis!
+        </p>
+        <a href="#contact" className="btn btn-primary">
+          {" "}
+          Lets Talk!
+        </a>
+      </div>
     </section>
   );
 }

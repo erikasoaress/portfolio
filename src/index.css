@@ -71,7 +71,7 @@ section > h2, section > h5 {
 }
 
 section > h2 {
-color: var(--color-primary);
+color: lightgreen;
 margin-bottom: 3rem;
 }
 
@@ -80,7 +80,7 @@ margin-bottom: 3rem;
 }
 
 a {
-    color: var(--color-primary);
+    color: white;
     transition: var(--transition)
 }
 
@@ -91,23 +91,25 @@ a:hover {
 .btn {
     width:max-content;
     display: inline-block;
-    color:var(--color-primary);
+    /* color:var(--color-primary); */
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-white);
     transition:var(--transition);
 }
 
 .btn:hover {
-    background:var(--color-white);
+    background: linear-gradient(orange, rgb(215, 77, 153));
     color: var(--color-bg);
     border-color: transparent;
 }
 
 .btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
+   
+    /* background: var(--color-primary); */
+    color: var(--color-white);
+    backdrop-filter: blur(15px);
 
 }
 
@@ -115,6 +117,7 @@ img {
     display: block;
     width:100%;
     object-fit: cover;
+
 }
 
 @media screen and (max-width: 1024px) {
