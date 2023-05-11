@@ -41,10 +41,7 @@ function About() {
           hic deserunt illo est magnam repellat iusto commodi eum similique
           debitis!
         </p>
-        <a href="#contact" className="btn btn-primary">
-          {" "}
-          Lets Talk!
-        </a>
+      
       </div>
     </section>
   );

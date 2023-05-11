@@ -7,24 +7,20 @@
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
+   backdrop-filter: blur(10px);
     padding:1.2rem;
     border-radius: 2rem;
-    border:1px solid transparent;
+    border:1px solid #27AE60;
     transition: var(--transition);
 }
 
-.portfolio__item:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
-}
 
 .portfolio__item-image {
-  height: 180px; /* set a fixed height for the image container */
-  width: 100%; /* set a fixed width for the image container */
+  height: 180px; 
+  width: 100%;
   border-radius: 1.5rem;
   overflow: hidden;
-  object-fit: cover; /* use object-fit to control how the image fits inside the container */
+  object-fit: cover; 
 }
 
 .portfolio__item h3 {

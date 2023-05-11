@@ -76,7 +76,7 @@ margin-bottom: 3rem;
 }
 
 .text-light {
-    color:var(--color-light)
+  color:rgb(215, 77, 153);
 }
 
 a {
@@ -91,7 +91,6 @@ a:hover {
 .btn {
     width:max-content;
     display: inline-block;
-    /* color:var(--color-primary); */
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -107,7 +106,6 @@ a:hover {
 
 .btn-primary {
    
-    /* background: var(--color-primary); */
     color: var(--color-white);
     backdrop-filter: blur(15px);
 
