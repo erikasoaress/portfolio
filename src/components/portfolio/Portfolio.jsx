@@ -9,7 +9,7 @@ const data = [
     id: 1,
     image: grabtheknowledge,
     title: "Grab the Knowledge",
-    description: "blablabla",
+    
     github: "https://github.com/erikasoaress/Grab-the-Knowledge",
     demo: "https://erikasoaress.github.io/Grab-the-Knowledge/",
   },
@@ -17,7 +17,7 @@ const data = [
     id: 2,
     image: radiowonders,
     title: "Radio Wonders",
-    description: "blablabla",
+    
     github: "https://github.com/erikasoaress/",
     demo: "https://radiowonders.netlify.app/",
   },
@@ -25,7 +25,7 @@ const data = [
     id: 3,
     image: lisbonforall,
     title: "Lisbon for all",
-    description: "blablabla",
+   
     github: "https://github.com/erikasoaress/",
     demo: "https://lisbonforall.cyclic.app/",
   },
