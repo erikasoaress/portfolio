@@ -28,6 +28,12 @@
 
 }
 
+
+.portfolio__item p {
+   margin-bottom: 2rem;
+
+}
+
 .portfolio__item-cta {
     display: flex;
     gap:1rem;

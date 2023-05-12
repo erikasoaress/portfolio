@@ -9,7 +9,8 @@ const data = [
     id: 1,
     image: grabtheknowledge,
     title: "Grab the Knowledge",
-    
+    description:
+      "A fun game representing a journey of two girls during a bootcamp, trying to excel and get all the knowledge they could get! -- Desktop only",
     github: "https://github.com/erikasoaress/Grab-the-Knowledge",
     demo: "https://erikasoaress.github.io/Grab-the-Knowledge/",
   },
@@ -17,16 +18,18 @@ const data = [
     id: 2,
     image: radiowonders,
     title: "Radio Wonders",
-    
-    github: "https://github.com/erikasoaress/",
+    description:
+      "For Radio lovers, this platform was made to search for radios all over the world, and save them to a favorite list. You can also play the radio.",
+    github: "https://github.com/erikasoaress/Final_Project_Frontend",
     demo: "https://radiowonders.netlify.app/",
   },
   {
     id: 3,
     image: lisbonforall,
     title: "Lisbon for all",
-   
-    github: "https://github.com/erikasoaress/",
+    description:
+      "A platform aimed at helping people with disabilities find accessible and enjoyable places to visit in Lisbon. Our goal was to create a modern and visually appealing design that would promote accessibility and raise awareness of the issue.",
+    github: "https://github.com/erikasoaress/LisbonForAll",
     demo: "https://lisbonforall.cyclic.app/",
   },
 ];
@@ -39,7 +42,7 @@ function Portfolio() {
 
       <div className="portfolio__container">
         {
-        data.map(({id, image,title, description, github, demo}) => {
+        data.map(({id, image, title, description, github, demo}) => {
           return (
           <article  key={id} className="portfolio__item">
             <div className="portfolio__item-image">
