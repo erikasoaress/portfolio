@@ -36,19 +36,13 @@ function About() {
           <article className="about__card">
             <p>
               {" "}
-              Hello, my name is Erika and I'm a Front-End Developer based in Lisbon. I have a background in jewelry design and entrepreneurship, but after many years in the industry, I felt the need to challenge
-              myself in a new field. The tech field made me feel curious and I decided to switch things up and jump in this new world. I am a creative thinker who wants to collaborate with dynamic teams in order to achieve a common goal, that will have an impact in peoples lives.
+              I'm a Front-End Developer from Brasil, Rio de Janeiro based in Lisbon, has been 4 years. I have a background in jewelry design and entrepreneurship, but after many years in the industry, developing physical products, I felt the need to challenge
+              myself in a new field, using my creativity in new ways. The tech field made me feel curious and I decided to switch things up and jump in this new world. I am a creative thinker who wants to collaborate with dynamic teams in order to achieve a common goal, that will have an impact in peoples lives.
             </p>
           </article>
         </div>
 
-        {/* <p>
-          {" "}
-          Hello, my name is Erika and I'm a Front-End Developer based in Lisbon.
-          I have a background in jewelry design and entrepreneurship, but after
-          many years in the industry, I felt the need to challenge myself in a
-          new field.
-        </p> */}
+     
       </div>
     </section>
   );
