@@ -42,7 +42,7 @@ line-height: 1.7;
 background-image: url(./assets/backgroundimage2.png); 
 background-size: contain;
 background-position:center center center;
-background-repeat: repeat;
+background-repeat:repeat-y;
 
 
 }
