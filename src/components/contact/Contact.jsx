@@ -3,6 +3,9 @@ import "./contact.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
+
+
 
 function Contact() {
   const form = useRef();
@@ -20,9 +23,11 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("The email was sent!");
         },
         (error) => {
           console.log(error.text);
+          toast.error("Failed to send. Try again!")
         }
       );
 
