@@ -56,7 +56,7 @@ function Contact() {
             placeholder="your full name"
             required
           />
-          <input type="email" email="email" placeholder="your email" required />
+          <input type="email" name="email" email="email" placeholder="your email" required />
           <textarea
             name="message"
             rows="7"
