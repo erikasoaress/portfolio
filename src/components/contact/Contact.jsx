@@ -63,7 +63,7 @@ function Contact() {
             placeholder="your message"
             required
           />
-          <button className="btn btn-primary" type="submit">
+          <button className="btn" type="submit">
             Send Message
           </button>
         </form>
